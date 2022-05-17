@@ -17,7 +17,7 @@ class Nothing:
   def absorb(self):
     pass
   
-  def out(self):
+  def spreadout(self):
     pass
   
   def death(self):
