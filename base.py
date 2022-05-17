@@ -1,20 +1,27 @@
 class Nothing:
-  __init__(self, remembered, forgotten):
-    self.remembered = remembered
-    self.forgotten = forgotten
+  def __init__(self):
     pass
   
-  born(self):
+  def beforeborn(self):
     pass
   
-  growth(self):
+  def born(self):
     pass
   
-  action(self):
+  def growth(self):
     pass
   
-  social(self):
+  def action(self):
     pass
   
-  death(self):
+  def absorb(self):
+    pass
+  
+  def out(self):
+    pass
+  
+  def death(self):
+    pass
+  
+  def disappear(self):
     pass
