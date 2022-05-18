@@ -1,5 +1,6 @@
 class Nothing:
   def __init__(self):
+    self.lives = []
     pass
   
   def beforeborn(self):
